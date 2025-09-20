@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://benedekvigh.hu/posts/hello-world/</loc>
+    <lastmod>2025-09-20T10:13:22+02:00</lastmod>
+  </url><url>
+    <loc>https://benedekvigh.hu/posts/</loc>
+    <lastmod>2025-09-20T10:13:22+02:00</lastmod>
+  </url><url>
+    <loc>https://benedekvigh.hu/</loc>
+    <lastmod>2025-09-20T10:13:22+02:00</lastmod>
+  </url><url>
+    <loc>https://benedekvigh.hu/search/</loc>
+  </url><url>
+    <loc>https://benedekvigh.hu/categories/</loc>
+  </url><url>
+    <loc>https://benedekvigh.hu/tags/</loc>
+  </url>
+</urlset>

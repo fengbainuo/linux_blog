@@ -1,0 +1,4 @@
+baseURL = 'https://benedekvigh.hu/'
+languageCode = 'en-us'
+title = 'qrvhh'
+theme = 'vortisil'

@@ -1,0 +1,12 @@
+---
+title: "Hello World"
+date: 2025-09-20T10:13:22+02:00
+draft: false
+author: qrvhh
+---
+
+** Intro
+
+The classic hello world, of course it's going to be my first post's title. This is most definitely just a test post, so don't expect anything profound. The goal really is just for me to test out hugo with org files, as I've never done such a thing before... not that I have experience with hugo at all
+
+I enjoy doing things in emacs, but as I'm not a designer, I kind of need to rely on external help when it comes to front-end, and that's where hugo comes into the picture. Hopefully this turns out well~

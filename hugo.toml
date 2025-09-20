@@ -5,6 +5,9 @@ theme = 'vortisil'
 copyright = 'Benedek Vigh'
 hasCJKlanguage = true
 
+[params.works]
+    enabled = false
+
 [[menus.main]]
     identifier = "home"
     url = "/"

@@ -1,0 +1,7 @@
+[data-theme="light"] {
+    --color-primary: #297d7a !important;
+}
+
+[data-theme="dark"] {
+    --color-primary: #68bdae !important;
+}

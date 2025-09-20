@@ -1,0 +1,15 @@
+---
+title: "About"
+date: 2025-09-20T11:38:31+02:00
+draft: false
+---
+
+** Me
+
+For the time being I'll just copy my Mastodon intro:
+
+striving for the ultimate minimalist, productive, stable setup - like a piece of paper and a pencil,
+just digital...
+
+GNU/Linux, BSD, Solaris, emacs, light themes, traveling, reading, podcasts, cooking, learning
+languages, tinkering with old-tech, calisthenics, decluttering/minimalism and occasionally writing

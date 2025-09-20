@@ -2,6 +2,23 @@ baseURL = 'https://blog.benedekvigh.hu/'
 languageCode = 'en-us'
 title = 'qrvhh'
 theme = 'vortisil'
+copyright = 'Benedek Vigh'
+hasCJKlanguage = true
+
+[[menus.main]]
+    identifier = "home"
+    url = "/"
+    weight = 1
+
+[[menus.main]]
+    identifier = "about"
+    url = "/about"
+    weight = 2
+
+[[menus.main]]
+    identifier = "archives"
+    url = "/posts"
+    weight = 3
 
 [caches]
   [caches.images]

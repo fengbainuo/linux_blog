@@ -2,25 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/enterprise_linux/</loc>
-    <lastmod>2025-09-20T16:31:33+02:00</lastmod>
+    <loc>https://blog.benedekvigh.hu/posts/enterprise_linux/</loc>
+    <lastmod>2025-09-21T10:10:33+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-09-20T16:31:33+02:00</lastmod>
+    <loc>https://blog.benedekvigh.hu/posts/</loc>
+    <lastmod>2025-09-21T10:10:33+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-09-20T16:31:33+02:00</lastmod>
+    <loc>https://blog.benedekvigh.hu/</loc>
+    <lastmod>2025-09-21T10:10:33+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://blog.benedekvigh.hu/about/</loc>
     <lastmod>2025-09-20T11:38:31+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/hello-world/</loc>
+    <loc>https://blog.benedekvigh.hu/posts/hello-world/</loc>
     <lastmod>2025-09-20T10:13:22+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://blog.benedekvigh.hu/search/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://blog.benedekvigh.hu/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://blog.benedekvigh.hu/tags/</loc>
   </url>
 </urlset>

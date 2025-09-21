@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>qrvhh</title>
-    <link>http://localhost:1313/</link>
+    <link>https://blog.benedekvigh.hu/</link>
     <description>Recent content on qrvhh</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Benedek Vigh</copyright>
-    <lastBuildDate>Sat, 20 Sep 2025 16:31:33 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Sep 2025 10:10:33 +0200</lastBuildDate>
+    <atom:link href="https://blog.benedekvigh.hu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Enterprise Linux?</title>
-      <link>http://localhost:1313/posts/enterprise_linux/</link>
-      <pubDate>Sat, 20 Sep 2025 16:31:33 +0200</pubDate>
-      <guid>http://localhost:1313/posts/enterprise_linux/</guid>
-      <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-3&#34;&gt;&#xA;&lt;h3 id=&#34;headline-1&#34;&gt;&#xA;Why?&#xA;&lt;/h3&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-3&#34;&gt;&#xA;&lt;p&gt;&#xA;Since it&amp;#39;s release earlier this year, I have been using Red Hat Enterprise Linux 10 almost exclusively as my daily driver. Well, on my home computer, as I&amp;#39;m forced to use Windows for my day-job.&#xA;It might feel like a weird choice, given how there is Fedora Linux, which can be thought of as a more modern iteration of RHEL (given how it&amp;#39;s the upstream project). The thing is, I&amp;#39;ve used Fedora before, but I could never become fully commited to it - sure, I love the near-stock Gnome experience, but that&amp;#39;s not an exclusive to Fedora.&#xA;The reason why I&amp;#39;ve managed to stay on RHEL for longer than 2 months is exactly this: I kind of forgot about it. It&amp;#39;s stable in a sense that I got bored running &amp;#34;dnf update&amp;#34; daily, just to see &amp;#34;Everything is up to date&amp;#34;. In fact, I don&amp;#39;t even remember when was the last time I opened the terminal to run an update.&#xA;There are other stable distributions - Debian, Suse, openSuse Leap, Rocky… - and yet I&amp;#39;m on a commercial offering. And there are two other reasons for that: me preparing for Red Hat Certifications for my job, and the fact that Red Hat gives out free licenses. If Suse would do the same, I probably would never have left it, but that&amp;#39;s another story for another time.&lt;/p&gt;</description>
+      <link>https://blog.benedekvigh.hu/posts/enterprise_linux/</link>
+      <pubDate>Sun, 21 Sep 2025 10:10:33 +0200</pubDate>
+      <guid>https://blog.benedekvigh.hu/posts/enterprise_linux/</guid>
+      <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-3&#34;&gt;&#xA;&lt;h3 id=&#34;headline-1&#34;&gt;&#xA;Why?&#xA;&lt;/h3&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-3&#34;&gt;&#xA;&lt;p&gt;&#xA;Since it&amp;#39;s release earlier this year, I have been using Red Hat Enterprise Linux 10 almost exclusively as my daily driver. Well, on my home computer, as I&amp;#39;m forced to use Windows for my day-job.&lt;/p&gt;&#xA;&lt;p&gt;&#xA;It might feel like a weird choice, given how there is Fedora Linux, which can be thought of as a more modern iteration of RHEL (given how it&amp;#39;s the upstream project). The thing is, I&amp;#39;ve used Fedora before, but I could never become fully commited to it - sure, I love the near-stock Gnome experience, but that&amp;#39;s not an exclusive to Fedora.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://blog.benedekvigh.hu/about/</link>
       <pubDate>Sat, 20 Sep 2025 11:38:31 +0200</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://blog.benedekvigh.hu/about/</guid>
       <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-3&#34;&gt;&#xA;&lt;h3 id=&#34;headline-1&#34;&gt;&#xA;Me&#xA;&lt;/h3&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-3&#34;&gt;&#xA;&lt;p&gt;&#xA;For the time being I&amp;#39;ll just copy my Mastodon intro:&lt;/p&gt;&#xA;&lt;p&gt;&#xA;striving for the ultimate minimalist, productive, stable setup - like a piece of paper and a pencil,&#xA;just digital…&lt;/p&gt;&#xA;&lt;p&gt;&#xA;GNU/Linux, BSD, Solaris, emacs, light themes, traveling, reading, podcasts, cooking, learning&#xA;languages, tinkering with old-tech, calisthenics, decluttering/minimalism and occasionally writing&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title>Hello World</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
+      <link>https://blog.benedekvigh.hu/posts/hello-world/</link>
       <pubDate>Sat, 20 Sep 2025 10:13:22 +0200</pubDate>
-      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <guid>https://blog.benedekvigh.hu/posts/hello-world/</guid>
       <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-3&#34;&gt;&#xA;&lt;h3 id=&#34;headline-1&#34;&gt;&#xA;Intro&#xA;&lt;/h3&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-3&#34;&gt;&#xA;&lt;p&gt;&#xA;The classic hello world, of course it&amp;#39;s going to be my first post&amp;#39;s title. This is most definitely just a test post, so don&amp;#39;t expect anything profound. The goal really is just for me to test out hugo with org files, as I&amp;#39;ve never done such a thing before… not that I have experience with hugo at all&lt;/p&gt;&#xA;&lt;p&gt;&#xA;I enjoy doing things in emacs, but as I&amp;#39;m not a designer, I kind of need to rely on external help when it comes to front-end, and that&amp;#39;s where hugo comes into the picture. Hopefully this turns out well~&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/search/</link>
+      <link>https://blog.benedekvigh.hu/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/search/</guid>
+      <guid>https://blog.benedekvigh.hu/search/</guid>
       <description></description>
     </item>
   </channel>

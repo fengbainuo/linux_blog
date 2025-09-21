@@ -1,0 +1,117 @@
+---
+title: "Enterprise Linux?"
+date: 2025-09-21T10:10:33+02:00
+draft: false
+author: qrvhh
+---
+
+** Why?
+
+Since it's release earlier this year, I have been using Red Hat Enterprise Linux 10 almost exclusively as my daily driver. Well, on my home computer, as I'm forced to use Windows for my day-job.
+
+It might feel like a weird choice, given how there is Fedora Linux, which can be thought of as a more modern iteration of RHEL (given how it's the upstream project). The thing is, I've used Fedora before, but I could never become fully commited to it - sure, I love the near-stock Gnome experience, but that's not an exclusive to Fedora.
+
+The reason why I've managed to stay on RHEL for longer than 2 months boils down to these:
+
+1. It's stable (both as in unchanging, and both as in hard-to-break)
+2. It's free (under certain circumstances)
+3. It provides a learning oppportunity for my job
+
+Let's break these down in a little more detail, before moving onto my desktop experience and workflow~
+
+*** 1. It's stable
+
+In the world of Linux, stability has two meanings - if something doesn't change often (or indeed, at all), it is considered stable. If something doesn't break easily, it's also considered stable.
+
+If we take Arch Linux as an example - a rather popular distribution - we wouldn't call it stable due to the fact that it follows a rolling-release model, which means updates are coming out continuosly. This goes against the first meaning of stable from the previous line.
+
+Unlike Arch, RHEL has a release-cycle model, which means updates (save for vulnerability patches) are being pushed at once, after they went through rigorous testing (in Fedore and CentOS Stream). So if you started using RHEL 10 when it released, or if you start using it now (still before the first minor release), chances are, all of the applications from the official repos are still on the same version.
+
+The second meaning of stability is less important, as every distribution is only as stable "as the person using it" - if I start playing around the kernel, applying patches, etc. it might very well break on me pretty quickly (since I'm not a kernel developer, I absolutely have no idea how to work on it).
+
+*** 2. It's free
+
+"But Linux is open-source, of course it's free?" is what was my belief a few years ago - before I started working in the field. The thing is, yes, both the GNU operating system and the Linux kernel (which make up most distributions) are free and open source software.
+
+This freedom, however, is more akin to the one in "freedom of speech" - hence the saying "free as in free speech, not as in free beer".
+
+RHEL offers the so-called developer's subscription, which is an annual, not automatically renewing license. It has certain limitations on which products you can use with it, and in which settings, but for personal use it's allowed. What you really get with this subscription is access to the repositories of RHEL - so you can get updates without having to compile them for yourself.
+
+Another popular enterprise distribution - which I actually prefer over RHEL - is SUSE Linux. They, unfortunately don't provide keys for personal use. All you get is a 60 day trial, which is enough to try things out, but not as comfrotable as an annual license.
+
+*** 3. Career related
+
+I'm working as a Linux/Unix SysAdmin, and recently getting more and more into DevOps (Kubernetes, OpenShift, cloud...). Most of our servers used to run Ubuntu, but recently I have to work with more and more RHEL servers. This is also why I'm preparing for RHEL certifications (currently RHCSA, and after that RHCE).
+
+While what I do at home doesn't necessarily align with the content of the exams, there are certain elements (firewall rules, SELinux) that I have to tweak every once in a while. These "micro-practice" sessions are reason enough for me to run it on my home computer.
+
+*** My desktop
+
+We have arrived to the more interesting part: the desktop experience.
+
+You will never catch me say that Gnome is not a good desktop environment. In my opinion - and this is really subjective - it's workflow is leagues ahead of any operating system on the market (more on that later).
+
+RHEL's Gnome is almost fully vanilla - the only patch they apply is the small logo in the top left corner. That used to be a nice little addition back when the top left corner only had the - not so useful - Activities button. However, it was replaced by a small, dynamic workspace indicator. And it's awesome. For reasons I can't fathom, RHEL replaced the indicator with the logo, so now it's once again just a useless flair. Unfortunate, the only patch they add, and it's a bad one.
+
+#+CAPTION: Screenshot of the logo from the top-left corner
+[[/home/beni/Blog/linux_blog/linux_blog/content/imgs/enterprise_linux/top_left.png]]
+
+Of course, they themed the GDM login screen with their logo as well.
+
+What I appreciate in each RHEL release, is they always ship with an updated set of wallpapers, that reflects their current design language - RHEL 10 is no exception, and I like the modern look of the new wallpapers:
+
+#+CAPTION: Screenshot of the Gnome background selector with of the stock RHEL10 wallpapers
+[[/home/beni/Blog/linux_blog/linux_blog/content/imgs/enterprise_linux/backgrounds.png]]
+
+*** My workflow
+
+As I've mentioned earler, Gnome's workflow is just on a whole another level. It's design is built around the super button (or windows button), but I'd rather not go into too much detail, as it's perfectly explained on the [[https://gnome.org][official gnome website]].
+
+My workflow includes the usade of a few extensions - a workspace indicator for one, since RHEL doesn't make use of the built-in one, as discussed earlier.
+
+I also use a clipboard history extension, and an advanced window tiler (which is similar to the one in windows 11, but snappier). I like the extensions' placement on the right side of the top bar, they look organized:
+
+#+CAPTION: Extension indicators on the top right
+[[/home/beni/Blog/linux_blog/linux_blog/content/imgs/enterprise_linux/extensions.png]]
+
+For convenience and extra functionality I also use some other extensions, like GSConnect to sync with my android phone, removable drive indicator, app status indicators... However, they are not a core part of my workflow, so I won't go into too much detail.
+
+One - valid - critique of this extension system, is sometimes Gnome updates break extensions. The maintainers need to patch them.
+
+On RHEL, this is not a big concern - by the time I'll get access to a newer Gnome version, most of the extensions I use will either be patched, or have a replacement. Never in my years of Gnome usage did I have problems with incompatible extensions (never in my years of Gnome usage did I run it on a rolling release distribution either).
+
+I make heavy use of workspaces, and never have more than two apps open on the same workspace. I usually have Firefox (browser of choice), Thunderbird (emails and calendar) and Emacs open in three separate workspaces in no particular order (although I place Emacs usually between the two, so I can quickly get to either of them with touchpad gestures - which works phenomenally on Gnome.
+
+Everything else will go on a new workspace, and probably be closed when I'm done with them.
+
+One thing that took some time to get used to is the absence of the maximize and minimize buttons in Gnome - all we get is a big "X". This is intended. You don't need to minimize windows - you have infinite workspaces just gesture away.
+
+#+CAPTION: The lonely close button
+[[/home/beni/Blog/linux_blog/linux_blog/content/imgs/enterprise_linux/close_button.png]]
+
+In a bit more philosophical manner, I come to think of it like this: humans aren't meant to multi-task (I'm sorry, CEOs of the world). Time and again studeis proved it doesn't make us more productive - in fact, it hinder productivity. (note to self: link those studies and books!!)
+
+With gnome, my workflow transitioned from multiple windows open and minimized, clicking around all the time to find the right one to one application in full-screen at a time. Every workspace is a clean space, a blank sheet for one task you would like to do. When you need to switch to a new workspace, you switch to a new task. There is a certain sense of closure and start. To me, at least.
+
+*** Emacs
+
+I've been an on-and-off Emacs user for some time, but only recently did I decide to really try and learn it.
+
+It took some time to get used to the keyboard-centric nature of it, but once I got the hang of it, it really became much more comfortable than the keyboard+mouse editing I was used to. I'm still not 100% comfortable with all the keybindings, and I definitely don't use Emacs to it's full potential, however, I'm pretty comfortable navigating around buffers and text, and simple text and file operations feel more and more natural.
+
+I also make heavy use of org-mode: I write this blog in org-mode, and I write my german class notes in org-mode as well. I can't comment on it too much, as I've been only using it for like 2-3 weeks now, but it's certainly growing on me.
+
+I use Mastodon, and Emacs has an awesome mastodon client (called mastodon.el). It does everything a client needs to do, and once you learn the basic navigations it becomes really fun to use. I used to use Tuba as my desktop mastodon client, but now I exclusively use mastodon.el.
+
+After the untimely demise of Pocket (Mozilla's link saver? I'm not sure what's the proper name for it), I've started looking for alternatives. It's not that I've used it extensively, but in the months prior to the news of it's shutdown I've started using it again. As an alternative, I've found [[https://wallabag.org][Wallabag]], a french open-source alternative that supports Pocket imports - wonderful! They also have a hosted solution for a *really* cheap price, so it was a no-brainer for me.
+
+But why am I talking about that in the Emacs section? You guessed it, there is an emacs client for that: wallabag.el. It simply works, everyhing I archive, I can later read it inside Emacs, using Emacs keybindings.
+
+I also use Emacs as my matrix chat client with ement.el - it's not necessarily as intuitive yet as the previous two, but it's getting more and more comfortable.
+
+My next plans are to set up elfeed to sync my RSS subscriptions from freshRSS, which shouldn't be that difficult. I'm really considering an email setup as well, but Thunderbird does it's job way too well, so I'm not in a rush to replace it (and besides, I'm really looking forward to the launch if Thundermail).
+
+As it might be clear now, I'm trying to use Emacs wherever I can. Yes, I also used to think it's just a meme - but once it clicks, it really becomes something else.
+
+
+That's all I have for now. All that's left for me now is to wish everyone a pleasent rest of the week!

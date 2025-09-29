@@ -5,3 +5,7 @@
 [data-theme="dark"] {
     --color-primary: #e89a5c !important;
 }
+
+footer svg[role="img"] {
+    color: var(--color-primary);
+}

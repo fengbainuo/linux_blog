@@ -1,0 +1,14 @@
+---
+title: "I didn't need it before..."
+date: 2025-09-29T14:32:43+02:00
+draft: false
+author: qrvhh
+---
+
+* Don't rush your learning
+
+This is not a long or deep post. Sometimes I'll write out small, unimportant thoughts - like this one.
+
+That doesn't change the fact that tables in org-mode are super cool. Auto alignment, auto borders, auto row and column creation...
+
+I always knew Emacs is powerful, and I realize it more and more through daily use. It's a slow process, but there is no need to rush - learning new things is great, but there is only so much one can learn without being overwhelmed. This is why I'm an advocate of "learning through practice". And this is why I only started using tables in org-mode almost a month after I've started using it. I simply didn't need it before~

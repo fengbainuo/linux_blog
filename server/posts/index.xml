@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on qrvhh</title>
+    <link>https://blog.benedekvigh.hu/posts/</link>
+    <description>Recent content in Posts on qrvhh</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>Benedek Vigh</copyright>
+    <lastBuildDate>Sun, 21 Sep 2025 10:10:33 +0200</lastBuildDate>
+    <atom:link href="https://blog.benedekvigh.hu/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enterprise Linux?</title>
+      <link>https://blog.benedekvigh.hu/posts/enterprise_linux/</link>
+      <pubDate>Sun, 21 Sep 2025 10:10:33 +0200</pubDate>
+      <guid>https://blog.benedekvigh.hu/posts/enterprise_linux/</guid>
+      <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-3&#34;&gt;&#xA;&lt;h3 id=&#34;headline-1&#34;&gt;&#xA;Why?&#xA;&lt;/h3&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-3&#34;&gt;&#xA;&lt;p&gt;&#xA;Since it&amp;#39;s release earlier this year, I have been using Red Hat Enterprise Linux 10 almost exclusively as my daily driver. Well, on my home computer, as I&amp;#39;m forced to use Windows for my day-job.&lt;/p&gt;&#xA;&lt;p&gt;&#xA;It might feel like a weird choice, given how there is Fedora Linux, which can be thought of as a more modern iteration of RHEL (given how it&amp;#39;s the upstream project). The thing is, I&amp;#39;ve used Fedora before, but I could never become fully commited to it - sure, I love the near-stock Gnome experience, but that&amp;#39;s not an exclusive to Fedora.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>https://blog.benedekvigh.hu/posts/hello-world/</link>
+      <pubDate>Sat, 20 Sep 2025 10:13:22 +0200</pubDate>
+      <guid>https://blog.benedekvigh.hu/posts/hello-world/</guid>
+      <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-3&#34;&gt;&#xA;&lt;h3 id=&#34;headline-1&#34;&gt;&#xA;Intro&#xA;&lt;/h3&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-3&#34;&gt;&#xA;&lt;p&gt;&#xA;The classic hello world, of course it&amp;#39;s going to be my first post&amp;#39;s title. This is most definitely just a test post, so don&amp;#39;t expect anything profound. The goal really is just for me to test out hugo with org files, as I&amp;#39;ve never done such a thing before… not that I have experience with hugo at all&lt;/p&gt;&#xA;&lt;p&gt;&#xA;I enjoy doing things in emacs, but as I&amp;#39;m not a designer, I kind of need to rely on external help when it comes to front-end, and that&amp;#39;s where hugo comes into the picture. Hopefully this turns out well~&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

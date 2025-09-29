@@ -1,0 +1,70 @@
+---
+title: "Productivity workflow on Linux"
+date: 2025-09-24T15:23:06+02:00
+draft: true
+author: qrvhh
+---
+
+*** The workflow
+
+My productivity workflow doesn't really require any specialized applications, and since I'm alone using it, co-editing also isn't a crucial part of it. I mostly use it for my personal projects (like this blog) and for studying.
+
+In this post I'll introdocue the types of applications I use, why do I use that type of application, and what do I expect from the type of application, and then talk about the apps I actually use. I'll also talk about how I handle sync-ing between my devices for when I'm not using my computer.
+
+*** The idea
+
+For me, productivity is very simple - I need a way to track my days/weeks/months, I need a way to track my tasks, and a way to write out my ideas. I believe these short descriptions are pretty self-explanatory, but these are the three types of applications I need:
+
+- calendar
+- to-do list
+- notes
+
+**** Calendar
+
+Although I could track everything in a notes app (or even on a piece of paper), I believe being able to visualize my plans helps a lot when it comes to preparing for the week. I like the "time-blocking" method (note to self: insert link to Carl Pullein), which is basically all about allocating time for your tasks. So what do I require from my calendar app? A simple way to create events, and preferably being able to color-code them. Custom repetition patterns are also a must.
+
+**** To Do list
+
+I really only need functions that should be a default offering: lists, priorities, tags, repetitions. I only write a to-do entry for tasks that are actually to-do entries. It might feel good to tick out "go for a run", but I consider it a plan, and so it gets its own time-block in my calendar. Similarly, doing the groceries is a plan or task, but eggs, apples, etc... can go on my shopping list in my to-do app.
+
+**** Notes
+
+Admittedly, a good notes app could just about replace the previous two, but I'm already used to this setup, so I'm not trying to do it. Instead, what my notes app should handle is text input, embedding images, urls, and "notebooks", which means a bunch of notes of the same type are visually organized in one place. I use my notes app for both planning and collecting: recently I've planned a weekend hiking trip, and I used my notes app to collect important information, documents and links in one place (I might write about this last part a bit more in a later post, as I'm currently planning another travel, and it might be helpful for others).
+
+*** The apps I use
+
+For my usecase, I need apps for two different platforms, and a way to sync between them. On my desktop, no surprise, I use Linux, while my phone runs on Android. If I were in the Apple ecosystem, all of what I need would be solved out of box, but that doesn't mean we can't get to a similar level of functionality. As always, it's an exchange: we trade comfort for a cheaper (or indeed, free) and more private alternative.
+
+I'll not follow the order of the previous point, and instead will start from the simplest, and end with the one that requires the most setup.
+
+**** Simplest way for notes: Joplin
+
+Joplin is a wonderfully capable, open source notes application, that has a client for both Linux and Android. I've subscribed to their hosted sync solution (which is infinitely cheaper than something like evernote for example), and does exactly what I need. This way I also support development. You don't really need it however, as it's possible to sync your notes through Dropbox or Nextcloud - for free.
+
+Joplin has both a markdown and a visual editor, you can create notebooks, and even to-do lists (although I don't use this function that much). Cloud sync works perfectly, so when I edit a document on my laptop, I can access everything on my phone. I have to say, however, that the mobile app may not be the most comfortable for editing, but it works, and for me it's more important to be able to retrieve information on the go, not to add.
+
+**** Bit more involved (but not completely FOSS): Thunderbird + Google Calendar
+
+Thunderbird is my email client of choice, and I couldn't wish for a better one. It's calendar functionality is also perfectly competent. I can color code events, set up custom repetitions (like "repeat X times", "repeat on each Monday and Thursday", etc.), and it's all synced to my phone, where I use Google Calendar. This is technically not an open source solution, as I rely on a non-free service to sync my events. I'm currently waiting for Thunderbird/Thundermail Pro to see if they offer a solution that could replace my reliance on google, but for the time being this is the best I was able to do.
+
+**** The most involved: To Do with Planify, Tasks.org and Nextcloud Sync
+
+This one took a while to figure out. I used to be a big fan of Todoist, probably the best to-do application on the market - I also agree with the companies views on the importance of remote work for work-life balance, and async communication (for which they have another very good app). Unfortunately, I do not agree with the closed source model of both the application and the sync service they use. So to replace them, I've tried a few different solutions (using Joplin, Thundebird + Google Tasks...), but none worked quite as well.
+
+That is until I've stumbled upon Planify, a modern and powerful, open source to-do application on Linux - it looks quite similar to Apple's to-do app, but it allows syncing with third-party applications: they offer Nextcloud and Todoist (and are working on Google Tasks). I've never tried the latter (might give it a try sometimes), but the first one works perfectly. For that, however, you'll need a Nextcloud account on a Nextcloud instance - this can be your own, self-hosted one (which /can/ cost money, and *does* cost time) or a hosted one. You can find a hosted server on Nextcloud's website. Once you have an account, you can then login to that account from the Planify app, and have your tasks synced to the Nextcloud instance. That's all good and well, but how do you get the list on your phone?
+
+Well that requires another application - for me, it's tasks.org (free from f-droid, paid from the Play Store), another open-source solution. It can sync with Nextcloud, so all you have to do is log-in, and you are done - now you can add and complete tasks from either of your devices, and it'll sync over to the other. There is no limit on the number of lists you can create, and on the number of devices you sync to.
+
+*** Conclusion
+
+Using a wall-garden ecosystem can have it's positives from a strictly productivity/comfort point of view: if you use (and pay for) Microsoft services, you have your emails, calendar, notes and tasks on all of your devices, in the same applications, no matter the device you use. With Apple, it's the same (well, as long as you are using Apple hardware only).
+
+It is, however, not that difficult anymore to have a very stable, working setup on Linux, and in my opinion it's very much worth it. I'm not locked into any proprietary solution (except for Google Calendar), and I don't have to pay for any of the applications or services I use (and yet, they are ad-free). It's working very well for me, and I hope this post can help inspire others.
+
+All that's left for me now is to wish everyone a very productive rest of the week.
+
+*** A last note: Emacs
+
+Those who have read my previous post might be wondering: you are using Emacs already, why not use that for these things as well?
+
+The question is very very fair, and in fact I'm constantly learning about way I can use Emacs to replace the previously mentioned applications. I'm not quite there yet, however, and I certainly don't think it's a beginner friendly way to start productivity on Linux.

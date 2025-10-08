@@ -1,0 +1,16 @@
+---
+title: "Emacs as... social media?"
+date: 2025-10-08T14:42:03+02:00
+draft: false
+author: qrvhh
+---
+
+* Social networks
+
+I finally took the time to figure out org-social - a pretty new, really hacker-y type of social network. It's built around plaintext, org-mode files.
+
+Social media is, of course, already very much a thing inside emacs. My Mastodon client of choice, for example, is mastodon.el, but I also gave lem.el a try recently for Lemmy.
+
+This is something entirely else however, and I very much think anyone interested in alternative social networks and/or emacs should read more about it: [[https://github.com/tanrax/org-social]]
+
+You can also follow me there, the link is in the footer of the website among my other social media accounts~

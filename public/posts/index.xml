@@ -7,8 +7,22 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Benedek Vigh</copyright>
-    <lastBuildDate>Mon, 29 Sep 2025 14:32:43 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 08 Oct 2025 14:42:03 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Emacs as... social media?</title>
+      <link>http://localhost:1313/posts/org_social/</link>
+      <pubDate>Wed, 08 Oct 2025 14:42:03 +0200</pubDate>
+      <guid>http://localhost:1313/posts/org_social/</guid>
+      <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;&#xA;&lt;h2 id=&#34;headline-1&#34;&gt;&#xA;Social networks&#xA;&lt;/h2&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;&#xA;&lt;p&gt;&#xA;I finally took the time to figure out org-social - a pretty new, really hacker-y type of social network. It&amp;#39;s built around plaintext, org-mode files.&lt;/p&gt;&#xA;&lt;p&gt;&#xA;Social media is, of course, already very much a thing inside emacs. My Mastodon client of choice, for example, is mastodon.el, but I also gave lem.el a try recently for Lemmy.&lt;/p&gt;&#xA;&lt;p&gt;&#xA;This is something entirely else however, and I very much think anyone interested in alternative social networks and/or emacs should read more about it: &lt;a href=&#34;https://github.com/tanrax/org-social&#34;&gt;https://github.com/tanrax/org-social&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Plants</title>
+      <link>http://localhost:1313/posts/plants/</link>
+      <pubDate>Sat, 04 Oct 2025 11:15:03 +0200</pubDate>
+      <guid>http://localhost:1313/posts/plants/</guid>
+      <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;&#xA;&lt;h2 id=&#34;headline-1&#34;&gt;&#xA;Relax&#xA;&lt;/h2&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;&#xA;&lt;p&gt;&#xA;I found a good way to relax is to &amp;#34;work&amp;#34; on some small plants. It doesn&amp;#39;t take longer than 30 minutes a week to cut off some dry leaves, clean the pot and water them, but they are a joy to look at 24/7.&lt;/p&gt;&#xA;&lt;p&gt;&#xA;I currently have a Jade Plant, and Aloe Vera and some type of small cactus that I just recently replanted after it survived literal years in a virtually empty pot.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>I didn&#39;t need it before...</title>
       <link>http://localhost:1313/posts/250929_emacs_table/</link>

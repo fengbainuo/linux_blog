@@ -1,1 +1,1 @@
-[data-theme=light]{--color-primary:#4c6a7e !important}[data-theme=dark]{--color-primary:#e89a5c !important}footer svg[role=img]{color:var(--color-primary)}
+[data-theme=light]{--color-primary:#7C8D7B !important}[data-theme=dark]{--color-primary:#BD6F50 !important}footer svg[role=img]{color:var(--color-primary)}

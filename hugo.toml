@@ -1,7 +1,7 @@
 baseURL = 'https://blog.benedekvigh.hu/'
 languageCode = 'en-us'
 title = 'qrvhh'
-theme = 'vortisil'
+theme = 'hugo-theme-tokiwa'
 copyright = 'Benedek Vigh'
 hasCJKlanguage = true
 

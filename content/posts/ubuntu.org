@@ -1,0 +1,102 @@
+---
+title: "I am because we are"
+date: 2025-11-09T17:51:05+01:00
+draft: true
+author: qrvhh
+---
+
+* Humanity
+
+After a long time of distro hopping and then staying on RHEL10 for quite a while, I'm back to where it - almost - all began for me: Ubuntu.
+
+To be honest, Ubuntu wasn't my first Linux distribution. It wasn't until, I belive, 2010 that I learned about it. But even before that, at home we only had one computer, running SuSE Linux (7 maybe?).
+
+Then it was Windows XP, Windows 7 - and finally, Ubuntu. To be honest, I haven't used Ubuntu much back then. I don't have many memories of it, other than Gnome 2 being much cooler than Windows ever managed to be, and Nibbles, a mulitplayer snake clone.
+
+Then it was back to Windows 8 and 8.1, because school. Around that time Canonical started using their own desktop environment, Unity. I tried it out on a whim after a Windows update that was so good, my laptop refused to boot once it was installed. And to say that I fell in love with it would be an understatement.
+
+Unity, to me, was (is) the pinnacle of UI/UX design. It was modern, and aligned perfectly with the ongoing graphical trends (unlike Gnome, my current desktop of choice, which is painfully stuck in flat design).
+
+I really liked the global menu, and window action buttons on the left side, that merged with the top bar when the window was full screen. I really liked the subtle pulsing of the icons when clicked, the sound effect, everything.
+
+My favourite was Precise Pangolin - I still clearly remember the brownish wallpaper with the cure little pangolin in the lower right corner.
+
+And then, 2018 rolled around, and with it - Unity died.
+
+** Bond
+
+To be honest, the people at Canonical did a seriously wonderful job to help the users transition to gnome.
+
+To me however, much was lost. The once jumpy and glowing icons were bland and static. The sound effects - gone. The global menu reduced to an "active window indicator". And the window buttons on the right - just too windows-y. I also missed the global search in the dash.
+
+Let's just say, despite the graphical similarities, I was dissapointed. I know that many people didn't like Unity, and preferred Gnome over it. I was probably in the minority.
+
+In fact, the distro that once made me want to use Linux, became so different, I just decided it's no longer something I want to bother with - and so, my Linux journey came to a halt.
+
+** Break
+
+For a long time after that, I was using Windows. I never (even less so today) liked it. I'm not well versed enough in programming to comment on whether it's a well written operating system (although many people say it is kind of patchworky).
+
+Every once in a while I would boot up an Ubuntu LTS live ISO, only to realize that it's not what I remember. Not what I'm looking for.
+
+This would go on for years - I graduated university, and got my first job. And with it came my first ever work laptop, running, of course, Windows 10 (one of the worst looking operating systems to exist, maybe ever).
+
+After a few weeks of working, I realized something: the only software I used on the device was the Edge browser. Excel online, outlook, word online, etc...
+
+Everything I had to use ran in a browser, on an operating system that, when idel, used around half of my memory, took minutes to boot, and was, generally, slow and clunky.
+
+And I remember the time, while waiting for a reboot to happen after a sudden BSOD, I realized: everything I need to do at work, I could do on Ubuntu - more productively even.
+
+So I started looking into Linux again, but this time, Ubuntu wasn't my first choice. I decided to return to an old friend, one who I don't have many memories of, yet the one who started me on this path.
+
+* The Gecko
+
+And so, on a boring Friday in the office, I googled "suse". And I realized, it is not as simple as I thought.
+
+Keep the long story short, I ended up creating a KDE Plasma Leap usb drive. And was it an experience.
+
+I enjoyed it a lot - despite the hardships, as I realized openSuse is not, in fact, a premiere desktop distro. Leap, even less so.
+
+That didn't stop me, and I might go into more detail about my experience with SUSE, but for now let's just say it was the distro that showed me the forbidden art of "distro hopping".
+
+And for a long time, there was no stopping.
+
+* Interim
+
+There were many distros I've tried after I got fed up with openSuse (Tumbleweed already, at that time). Debian, Zorin OS, Ubuntu (again), Fedora, Arch, Mint, Oracle Linux, GNU Guix, Suse Enterprise Desktop...
+
+Some of them I used for months. Some, maybe a few days. In the meantime I started my masters, and got an intern position at an IT company as a Linux Sysadmin.
+
+I want to have a short writeup in the future about the different distros I used, but the important thing is, I ended up with a very... odd choice.
+
+** Shadowman
+
+Red Hat Enterprise Linux 10. My first blog post, even, is about my experience with this very distribution. And there is not a single bad thing I could say about the dsitribution itself (save for maybe the fact that it's not necessarly and end-user, desktop oriented system).
+
+But as many of us know, Red Hat (well, IBM probably) isn't the most ethical when it comes to open source, and I more and more feel like they use the term only as an advertisement, and not actually follow it's principles.
+
+This didn't bother me enough to want to replace it. That is, until last Sunday, when I had too much free time on my hands.
+
+* Redemption
+
+During my time of distro hopping, I learned to love Gnome. I believe, out of all the desktops out there (including Windows and MacOS), it has the best workflow.
+
+And now I believe Ubuntu's Gnome only makes this workflow (for me, at least) better.
+
+I don't want to go deep into Ubuntu right now - I plan to have a longer blog post of the next LTS release in 2026, similar to my RHEL10 one.
+
+While I still miss Unity, I'm slowly accepting the fact that it's gone (Ubuntu Unity was, unfortunately, very unstable for me).
+
+If someone were to ask me, which distribution has the best chance of becoming the premiere Linux desktop, I still believe it would be Ubuntu. And I'm so ready for it.
+
+** End - 2026
+
+Last Friday I installed Ubuntu 16.04 on my old ThinkPad X220. Why? Because it's the last Ubuntu LTS that shipped with Unity.
+
+Fun fact: it's still not EOL.
+
+You can attach  a free Ubuntu Pro subscription even to 16.04 desktop, and receive security updates until April, 2026.
+
+The controversial snap store is also available on 16.04, which means you can run modern desktop applications on the system as well - Firefox, Thunderbird, Libre Office, even Minecraft has a snap version. And they work prefectly fine.
+
+So, to be honest, it's still not time to bury Unity just yet. And I plan to make the most of it, as long as it's possible.
